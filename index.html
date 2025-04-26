@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quiz Web App | Aabid Hussain</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Quiz App Container -->
+  <div class="quiz-container">
+    <div class="start-screen" id="start-screen">
+      <h1>Welcome to the Quiz</h1>
+      <button id="start-btn">Start Quiz</button>
+    </div>
+
+    <div class="quiz-screen hidden" id="quiz-screen">
+      <h2 id="question-text">Question appears here</h2>
+      <div id="options" class="options-container"></div>
+      <button id="next-btn" class="next-btn">Next</button>
+    </div>
+
+    <div class="result-screen hidden" id="result-screen">
+      <h2>Quiz Completed!</h2>
+      <p id="score-text"></p>
+      <button id="restart-btn">Restart Quiz</button>
+    </div>
+  </div>
+
+  <!-- Developer Footer -->
+  <footer>
+    <p>Designed & Developed by <strong>Aabid Hussain</strong> | Contact: <a href="mailto:abii33157@gmail.com">abii33157@gmail.com</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
